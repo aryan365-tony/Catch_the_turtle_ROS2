@@ -17,7 +17,11 @@ Following is the use of ROS2 with Turtlesim
 
 Before using the codes,
 >>>Make Sure ROS2 is installed
+
 >>>Create A ros2 workspace in a folder and clone src/my_robot_control in the workspace folder
+
 >>>Run "colcon build" in the terminal at path of workspace folder
+
 >>>Source the setup.bash script in the install folder in the workspace folder
+
 >>>Run turtlesim before running the codes that use it.
