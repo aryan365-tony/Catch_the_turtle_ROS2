@@ -1,0 +1,52 @@
+[2.596s] Invoking command in '/home/aryan/ros2_ws/build/my_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aryan/ros2_ws/build/my_robot_control/prefix_override:/home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/aryan/ros2_ws/build/my_robot_control/build
+[2.946s] running develop
+[2.947s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.947s] !!
+[2.947s] 
+[2.948s]         ********************************************************************************
+[2.948s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.948s]         Instead, use pypa/build, pypa/installer or other
+[2.948s]         standards-based tools.
+[2.948s] 
+[2.948s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.948s]         ********************************************************************************
+[2.948s] 
+[2.949s] !!
+[2.949s]   easy_install.initialize_options(self)
+[3.118s] Removing /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my-robot-control.egg-link (link to .)
+[3.168s] Invoked command in '/home/aryan/ros2_ws/build/my_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aryan/ros2_ws/build/my_robot_control/prefix_override:/home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/aryan/ros2_ws/build/my_robot_control/build
+[3.169s] Invoking command in '/home/aryan/ros2_ws/src/my_robot_control': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aryan/ros2_ws/build/my_robot_control/prefix_override:/home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_control build --build-base /home/aryan/ros2_ws/build/my_robot_control/build install --record /home/aryan/ros2_ws/build/my_robot_control/install.log --single-version-externally-managed install_data --force
+[3.505s] running egg_info
+[3.524s] writing ../../build/my_robot_control/my_robot_control.egg-info/PKG-INFO
+[3.525s] writing dependency_links to ../../build/my_robot_control/my_robot_control.egg-info/dependency_links.txt
+[3.527s] writing entry points to ../../build/my_robot_control/my_robot_control.egg-info/entry_points.txt
+[3.528s] writing requirements to ../../build/my_robot_control/my_robot_control.egg-info/requires.txt
+[3.528s] writing top-level names to ../../build/my_robot_control/my_robot_control.egg-info/top_level.txt
+[3.579s] reading manifest file '../../build/my_robot_control/my_robot_control.egg-info/SOURCES.txt'
+[3.581s] writing manifest file '../../build/my_robot_control/my_robot_control.egg-info/SOURCES.txt'
+[3.581s] running build
+[3.582s] running build_py
+[3.583s] copying my_robot_control/circle.py -> /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control
+[3.590s] copying my_robot_control/pose.py -> /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control
+[3.592s] running install
+[3.608s] running install_lib
+[3.639s] creating /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control
+[3.639s] copying /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control/circle.py -> /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control
+[3.640s] copying /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control/pose.py -> /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control
+[3.641s] copying /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control/__init__.py -> /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control
+[3.641s] copying /home/aryan/ros2_ws/build/my_robot_control/build/lib/my_robot_control/first.py -> /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control
+[3.643s] byte-compiling /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control/circle.py to circle.cpython-312.pyc
+[3.645s] byte-compiling /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control/pose.py to pose.cpython-312.pyc
+[3.647s] byte-compiling /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control/__init__.py to __init__.cpython-312.pyc
+[3.648s] byte-compiling /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control/first.py to first.cpython-312.pyc
+[3.650s] running install_data
+[3.650s] copying resource/my_robot_control -> /home/aryan/ros2_ws/install/my_robot_control/share/ament_index/resource_index/packages
+[3.650s] copying package.xml -> /home/aryan/ros2_ws/install/my_robot_control/share/my_robot_control
+[3.651s] running install_egg_info
+[3.674s] Copying ../../build/my_robot_control/my_robot_control.egg-info to /home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages/my_robot_control-0.0.0-py3.12.egg-info
+[3.682s] running install_scripts
+[3.861s] Installing Node_1 script to /home/aryan/ros2_ws/install/my_robot_control/lib/my_robot_control
+[3.861s] Installing circle script to /home/aryan/ros2_ws/install/my_robot_control/lib/my_robot_control
+[3.862s] Installing pose script to /home/aryan/ros2_ws/install/my_robot_control/lib/my_robot_control
+[3.863s] writing list of installed files to '/home/aryan/ros2_ws/build/my_robot_control/install.log'
+[3.909s] Invoked command in '/home/aryan/ros2_ws/src/my_robot_control' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aryan/ros2_ws/build/my_robot_control/prefix_override:/home/aryan/ros2_ws/install/my_robot_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_robot_control build --build-base /home/aryan/ros2_ws/build/my_robot_control/build install --record /home/aryan/ros2_ws/build/my_robot_control/install.log --single-version-externally-managed install_data --force
