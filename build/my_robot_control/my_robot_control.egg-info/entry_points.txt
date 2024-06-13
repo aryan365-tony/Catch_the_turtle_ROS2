@@ -1,0 +1,5 @@
+[console_scripts]
+Node_1 = my_robot_control.first:main
+circle = my_robot_control.circle:main
+controller = my_robot_control.turtle_control:main
+pose = my_robot_control.pose:main
